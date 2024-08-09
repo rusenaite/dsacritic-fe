@@ -4,7 +4,7 @@ async function loadTestResultsFromJson(filePath) {
   try {
     console.log("Fetching data");
 
-    const response = await fetch(filePath);
+    const response = await fetch(filePath, {cache: "no-store"});
     if (!response.ok) {
       console.log("Not able to fetch data");
       throw new Error("Network response was not ok");
