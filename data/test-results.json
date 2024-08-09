@@ -49,30 +49,6 @@
             ]
         },
         {
-            "Copy of tests.py": [
-                [
-                    "Test 1",
-                    false
-                ],
-                [
-                    "Test 2",
-                    false
-                ],
-                [
-                    "Test 3",
-                    true
-                ],
-                [
-                    "Test 4",
-                    true
-                ],
-                [
-                    "Test 5",
-                    false
-                ]
-            ]
-        },
-        {
             "v2.py": [
                 [
                     "Test 1",
