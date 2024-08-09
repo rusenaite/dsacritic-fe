@@ -1,6 +1,54 @@
 {
     "results": [
         {
+            "lab.py": [
+                [
+                    "Test 1",
+                    false
+                ],
+                [
+                    "Test 2",
+                    false
+                ],
+                [
+                    "Test 3",
+                    true
+                ],
+                [
+                    "Test 4",
+                    false
+                ],
+                [
+                    "Test 5",
+                    false
+                ]
+            ]
+        },
+        {
+            "Copy of v1.py": [
+                [
+                    "Test 1",
+                    true
+                ],
+                [
+                    "Test 2",
+                    true
+                ],
+                [
+                    "Test 3",
+                    true
+                ],
+                [
+                    "Test 4",
+                    true
+                ],
+                [
+                    "Test 5",
+                    true
+                ]
+            ]
+        },
+        {
             "v2.py": [
                 [
                     "Test 1",
