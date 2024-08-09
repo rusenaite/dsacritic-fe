@@ -1,4 +1,4 @@
-const DOWNLOAD_PATH = "https://github.com/rusenaite/dsacritic/releases/latest/download/test-results.json";
+const DOWNLOAD_PATH = "data/test-results.json";
 
 async function loadTestResultsFromJson(filePath) {
   try {
