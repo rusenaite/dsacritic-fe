@@ -28,7 +28,7 @@ body {
 }
 .results-table thead {
   background: rgb(36, 41, 46);
-  color: white;
+  color: rgb(230, 237, 243);
 }
 .results-table thead th {
   font-weight: 700;
