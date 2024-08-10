@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 $light-bg: rgba(255, 255, 255, 0.1);
 $text-color: rgba(255, 255, 255, 0.9);
-$accent-color: rgb(230, 233, 233);
-$header-bg-color: rgba(41, 40, 40, 0.9);
+$accent-color: rgb(43,49,55);
+$header-bg-color: rgb(36,41,46);
 $dark-bg: rgba(0, 0, 0, 0.9);
-$light-bg: rgb(230, 230, 230);
 
 body {
   background: $dark-bg;

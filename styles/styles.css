@@ -27,7 +27,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.9);
 }
 .results-table thead {
-  background: rgba(41, 40, 40, 0.9);
+  background: rgb(36, 41, 46);
   color: white;
 }
 .results-table thead th {
@@ -37,7 +37,7 @@ body {
   background-color: rgba(255, 255, 255, 0.2);
 }
 .results-table tbody tr:hover {
-  background-color: rgb(230, 233, 233);
+  background-color: rgb(43, 49, 55);
   color: rgba(0, 0, 0, 0.9);
 }
 

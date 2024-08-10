@@ -35,7 +35,7 @@ function updateDOMWithTestResults(testData) {
                     let cell = document.createElement('td');
                     if (test) {
                         cell.textContent = test[1] ? "Passed" : "Failed";
-                        cell.style.backgroundColor = test[1] ? "green" : "red";
+                        cell.style.backgroundColor = test[1] ? "(63, 185, 80)" : "(248, 81, 73)";
                     } else {
                         cell.textContent = 'N/A';
                         cell.style.backgroundColor = 'yellow'; // Mark as N/A
