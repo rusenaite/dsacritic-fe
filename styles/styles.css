@@ -22,12 +22,12 @@ body {
   margin-top: 20px;
 }
 .results-table th, .results-table td {
-  text-align: left;
+  text-align: center;
   padding: 12px;
   border: 1px solid rgba(255, 255, 255, 0.9);
 }
 .results-table thead {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(41, 40, 40, 0.9);
   color: white;
 }
 .results-table thead th {
@@ -37,7 +37,7 @@ body {
   background-color: rgba(255, 255, 255, 0.2);
 }
 .results-table tbody tr:hover {
-  background-color: rgb(79, 192, 210);
+  background-color: rgb(230, 233, 233);
   color: rgba(0, 0, 0, 0.9);
 }
 
