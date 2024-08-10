@@ -11,9 +11,9 @@ body {
   max-width: 1000px;
   margin: auto;
   padding: 20px;
-  background: rgb(23, 30, 40);
+  background: rgb(13, 17, 23);
   border-radius: 5px;
-  box-shadow: 0 2px 4px rgb(23, 30, 40);
+  box-shadow: 0 2px 4px rgb(39, 49, 63);
 }
 
 .results-table {
