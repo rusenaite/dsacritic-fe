@@ -47,4 +47,9 @@ body {
     background-color: $accent-color;
     color: $dark-bg;
   }
+
+  tbody tr:hover td:first-child,
+  tbody tr:hover th:first-child {
+    color: $text-color;
+}
 }

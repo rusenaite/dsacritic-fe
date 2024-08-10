@@ -37,5 +37,9 @@ body {
   background-color: rgb(43, 49, 55);
   color: rgb(13, 17, 23);
 }
+.results-table tbody tr:hover td:first-child,
+.results-table tbody tr:hover th:first-child {
+  color: rgb(230, 237, 243);
+}
 
 /*# sourceMappingURL=styles.css.map */
