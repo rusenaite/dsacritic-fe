@@ -11,7 +11,7 @@ body {
   max-width: 1000px;
   margin: auto;
   padding: 20px;
-  background: rgb(230, 230, 230);
+  background: rgba(0, 0, 0, 0.9);
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -22,15 +22,9 @@ body {
   margin-top: 20px;
 }
 .results-table th, .results-table td {
+  text-align: left;
   padding: 12px;
   border: 1px solid rgba(255, 255, 255, 0.9);
-  padding: 10px 20px;
-  border-radius: 20px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 14px;
-  color: white;
-  text-align: center;
-  width: 100px;
 }
 .results-table thead {
   background: rgba(0, 0, 0, 0.9);
@@ -45,22 +39,6 @@ body {
 .results-table tbody tr:hover {
   background-color: rgb(79, 192, 210);
   color: rgba(0, 0, 0, 0.9);
-}
-
-.status-container {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.status {
-  padding: 10px 20px;
-  border-radius: 20px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 14px;
-  color: white;
-  text-align: center;
-  width: 100px;
 }
 
 /*# sourceMappingURL=styles.css.map */
