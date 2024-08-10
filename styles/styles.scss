@@ -2,8 +2,8 @@
 $light-bg: rgba(255, 255, 255, 0.1);
 $text-color: rgba(255, 255, 255, 0.9);
 $accent-color: rgb(43,49,55);
-$header-bg-color: rgb(36,41,46);
-$dark-bg: rgba(48, 54, 61);
+$header-bg-color: rgb(23, 30, 40);
+$dark-bg: rgb(23, 30, 40);
 
 body {
   background: $dark-bg;
@@ -19,7 +19,7 @@ body {
   padding: 20px;
   background: $dark-bg;
   border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 4px rgb(23, 30, 40);
 }
 
 .results-table {
