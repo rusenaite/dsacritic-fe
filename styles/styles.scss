@@ -42,11 +42,7 @@ body {
       font-weight: 700;
     }
   }
-  
-  tbody tr:nth-child(odd) {
-    background-color: rgba(255,255,255,0.2);
-  }
-  
+
   tbody tr:hover {
     background-color: $accent-color;
     color: $dark-bg;
