@@ -2,7 +2,7 @@
 body {
   background: rgb(13, 17, 23);
   font-family: "Open Sans", sans-serif;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgb(230, 237, 243);
   margin: 0;
   padding: 20px;
 }
@@ -20,11 +20,12 @@ body {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
+  border: rgba(48, 54, 61, 0.7);
 }
 .results-table th, .results-table td {
   text-align: center;
   padding: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.9);
+  border: 1px solid rgb(230, 237, 243);
 }
 .results-table thead {
   background: rgb(23, 30, 40);
