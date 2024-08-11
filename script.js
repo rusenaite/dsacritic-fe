@@ -34,11 +34,11 @@ function updateDOMWithTestResults(testData) {
                     const test = tests[i];
                     let cell = document.createElement('td');
                     if (test) {
-                        cell.textContent = test[1] ? "Passed" : "Failed";
-                        cell.style.backgroundColor = test[1] ? "rgb(63, 185, 80)" : "rgb(248, 81, 73)";
+                        cell.textContent = test[1] ? "Passed ✅" : "Failed ❌";
+                        cell.style.color = test[1] ? "rgb(63, 185, 80)" : "rgb(248, 81, 73)";
                     } else {
                         cell.textContent = 'N/A';
-                        cell.style.backgroundColor = 'yellow'; // Mark as N/A
+                        cell.style.color = 'yellow'; // Mark as N/A
                     }
                     row.appendChild(cell);
                 }
